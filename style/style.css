@@ -30,8 +30,7 @@ h2 {
 
 p,
 li,
-th,
-td {
+form {
   font-size: 1.1em;
   color: #f9f8ff;
 }
@@ -81,4 +80,29 @@ nav {
 
 nav a {
   margin-left: 30px;
+}
+
+@media screen and (max-width: 996px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header,
+  footer {
+    padding: 20px 20px;
+  }
+
+  header nav img {
+    margin-bottom: 20px;
+  };
 }
